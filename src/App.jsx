@@ -1,4 +1,9 @@
+import Cards from './components/Cards'
 const App = () => {
-  return <h2>Birthday Reminder - Starter</h2>;
-};
-export default App;
+  return (
+    <>
+      <Cards />
+    </>
+  )
+}
+export default App
